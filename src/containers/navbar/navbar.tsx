@@ -29,22 +29,22 @@ function Navbar(props: NavbarProps) {
       Account Name: <strong>MAA The Foundation</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
-      Account Number: <strong>38470640920</strong>
+      Account Number: <strong>50100684245536</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
-      Branch code: <strong>51416</strong>
+      Branch code: <strong>8264</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
-      IFSC Code: <strong>SBIN0051416</strong>
+      IFSC Code: <strong>HDFC0008264</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
-      MICR: <strong>305002021</strong>
+      MICR: <strong>305240040</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
       Branch Name: <strong>Panchsheel Nagar, Ajmer</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
-      UPI ID: <strong>38470640920@sbi</strong>
+      UPI ID: <strong>vyapar.169031342254@hdfcbank</strong>
   </p>
   <p className="text-justify text-base lg:text-lg text-black">
       80G Registration Number: <strong>AAJAM0166HF20231</strong>

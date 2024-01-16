@@ -21,7 +21,7 @@ export default function Numbers() {
         </svg>
 
         <div className="flex flex-col ml-4 items-center xl:justify-start">
-          <h2 className="font-bold text-lg md:text-2xl">70</h2>
+          <h2 className="font-bold text-lg md:text-2xl">108</h2>
           <h3 className="text-center opacity-80">No. of Students</h3>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Numbers() {
           />
         </svg>
         <div className="flex flex-col ml-4 items-center xl:justify-start">
-          <h2 className="font-bold text-lg md:text-2xl">4</h2>
+          <h2 className="font-bold text-lg md:text-2xl">6</h2>
           <h3 className="text-center opacity-80">No. of Areas</h3>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function Numbers() {
           />
         </svg>
         <div className="flex flex-col ml-4 items-center xl:justify-start">
-          <h2 className="font-bold text-lg md:text-2xl">Rs. 60k+</h2>
+          <h2 className="font-bold text-lg md:text-2xl">Rs. 95k+</h2>
           <h3 className="text-center opacity-80">Commodity Donated</h3>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Numbers() {
           />
         </svg>
         <div className="flex flex-col ml-4 items-center xl:justify-start">
-          <h2 className="font-bold text-lg md:text-2xl">34</h2>
+          <h2 className="font-bold text-lg md:text-2xl">38</h2>
           <h3 className="text-center opacity-80">Events Organized</h3>
         </div>
       </div>
