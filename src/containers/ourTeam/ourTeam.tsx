@@ -20,6 +20,7 @@ import team14 from "../../assets/team/team14.png";
 import team15 from "../../assets/team/team15.png";
 import team16 from "../../assets/team/team16.png";
 import team17 from "../../assets/team/team17.png";
+import team18 from "../../assets/team/team18.png";
 
 export default function OurTeam() {
   const sectionTitle = "Our Team";
@@ -294,6 +295,15 @@ export default function OurTeam() {
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
                 />
                 <h4 className="text-center py-1 font-bold">Chandrakala Ranga</h4>
+                <p className="text-center italic">Volunteer</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team18}
+                  alt="President"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Urvashi Manwani</h4>
                 <p className="text-center italic">Volunteer</p>
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
