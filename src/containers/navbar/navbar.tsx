@@ -118,7 +118,8 @@ function Navbar(props: NavbarProps) {
           >
             <img src={logo} alt="logo" className="hidden lg:block lg:w-20" />
             <span className="font-bold text-lg lg:text-2xl">
-              MAA The Foundation
+              MAA The Foundation <br/>
+              Movement Against Aनपढ़ता
             </span>
           </a>
           <button
