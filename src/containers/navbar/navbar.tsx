@@ -211,6 +211,16 @@ function Navbar(props: NavbarProps) {
                 </span>
               </HashLink>
             </li>
+            <li className="nav-item">
+              <Link
+                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                to={"/internship"}
+              >
+                <span className="ml-2 lg:text-base relative link n-link">
+                  Internship
+                </span>
+              </Link>
+            </li>
             <li className="nav-item lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black">
               <span className="ml-2 lg:text-base">
                 <button
