@@ -170,10 +170,10 @@ function Navbar(props: NavbarProps) {
           <ul className="flex items-center flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
               <Link
-                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                className="lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black hover:opacity-75"
                 to={props.props.fromGallery ? "/" : "/gallery"}
               >
-                <span className="ml-2 lg:text-base relative link n-link">
+                <span className="ml-2 lg:text-xs xl:text-base relative link n-link">
                   {props.props.fromGallery ? "Home" : "Gallery"}
                 </span>
               </Link>
@@ -182,9 +182,9 @@ function Navbar(props: NavbarProps) {
               <HashLink
                 smooth
                 to="/#events"
-                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                className="lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black hover:opacity-75"
               >
-                <span className="ml-2 lg:text-base relative link n-link">
+                <span className="ml-2 lg:text-xs xl:text-base relative link n-link">
                   News Feed
                 </span>
               </HashLink>
@@ -193,9 +193,9 @@ function Navbar(props: NavbarProps) {
               <HashLink
                 smooth
                 to="/#about"
-                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                className="lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black hover:opacity-75"
               >
-                <span className="ml-2 lg:text-base relative link n-link">
+                <span className="ml-2 lg:text-xs xl:text-base relative link n-link">
                   About Us
                 </span>
               </HashLink>
@@ -204,25 +204,25 @@ function Navbar(props: NavbarProps) {
               <HashLink
                 smooth
                 to="/#contact"
-                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                className="lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black hover:opacity-75"
               >
-                <span className="ml-2 lg:text-base relative link n-link">
+                <span className="ml-2 lg:text-xs xl:text-base relative link n-link">
                   Contact Us
                 </span>
               </HashLink>
             </li>
             <li className="nav-item">
               <Link
-                className="lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                className="lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black hover:opacity-75"
                 to={"/internship"}
               >
-                <span className="ml-2 lg:text-base relative link n-link">
+                <span className="ml-2 lg:text-xs xl:text-base relative link n-link">
                   Internship
                 </span>
               </Link>
             </li>
-            <li className="nav-item lg:pl-6 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black">
-              <span className="ml-2 lg:text-base">
+            <li className="nav-item lg:pl-6 py-2 flex items-center uppercase font-bold leading-snug text-black">
+              <span className="ml-2 lg:text-xs xl:text-base">
                 <button
                   className="bg-green-500 hover:bg-green-700 text-white uppercase font-bold py-2 px-4 rounded"
                   onClick={clickHandler}

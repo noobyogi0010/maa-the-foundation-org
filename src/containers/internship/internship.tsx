@@ -1,5 +1,7 @@
 import React from 'react';
 import SectionHeading from '../../components/sectionHeading/sectionHeading';
+import intern1 from '../../assets/interns/intern1.jpg';
+import intern2 from '../../assets/interns/intern2.jpg';
 
 const InternshipContent = () => {
   const sectionTitle = "Join Our Mission";
@@ -43,6 +45,29 @@ const InternshipContent = () => {
           <li>Flexible schedule.</li>
         </ul>
       </div>
+      <SectionHeading title="Meet Our Previour Interns" />
+      <div className="flex flex-1 flex-col lg:flex-row flex-wrap px-14 mb-6">
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern1}
+            alt="Intern"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Tanisha Anand</h4>
+          <p className="text-center italic">Intern, 2019</p>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern2}
+            alt="Inter"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Nitendra</h4>
+          <p className="text-center italic">Intern, 2019</p>
+        </div>
+      </div>
+            
+      <SectionHeading title="What Are You Waiting For?" />
       <div className="flex px-14">
         <p className="text-left lg:text-justify text-lg mb-14">
         <strong>Join us now</strong> in our mission to transform lives through education and create a brighter future for underprivileged students. Apply now by contacting us at <strong>maathefoundation@gmail.com</strong> or <strong>+91 6377773134</strong> and be part of our journey to make a difference!
