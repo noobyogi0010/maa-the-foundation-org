@@ -48,6 +48,21 @@ import img72 from "../../assets/images/img72.jpg";
 import img73 from "../../assets/images/img73.jpg";
 import img74 from "../../assets/images/img74.jpg";
 import img75 from "../../assets/images/img75.jpg";
+import img76 from "../../assets/images/img76.jpg";
+import img77 from "../../assets/images/img77.jpg";
+import img78 from "../../assets/images/img78.jpg";
+import img79 from "../../assets/images/img79.jpg";
+import img80 from "../../assets/images/img80.jpg";
+import img81 from "../../assets/images/img81.jpg";
+import img82 from "../../assets/images/img82.jpg";
+import img83 from "../../assets/images/img83.jpg";
+import img84 from "../../assets/images/img84.jpg";
+import img85 from "../../assets/images/img85.jpg";
+import img86 from "../../assets/images/img86.jpg";
+import img87 from "../../assets/images/img87.jpg";
+import img88 from "../../assets/images/img88.jpg";
+import img89 from "../../assets/images/img89.jpg";
+import img90 from "../../assets/images/img90.jpg";
 
 export const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -69,6 +84,21 @@ export const ImageGallery = () => {
     img73,
     img74,
     img75,
+    img76,
+    img77,
+    img78,
+    img79,
+    img80,
+    img81,
+    img82,
+    img83,
+    img84,
+    img85,
+    img86,
+    img87,
+    img88,
+    img89,
+    img90,
   ];
 
   const handleImageClick = (image: any) => {
