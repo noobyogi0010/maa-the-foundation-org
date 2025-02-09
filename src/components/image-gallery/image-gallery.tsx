@@ -32,38 +32,69 @@ import img46 from "../../assets/images/img46.jpg";
 import img47 from "../../assets/images/img47.jpg";
 import img48 from "../../assets/images/img48.jpg";
 import img49 from "../../assets/images/img49.jpg";
+import img60 from "../../assets/images/img60.jpg";
+import img61 from "../../assets/images/img61.jpg";
+import img62 from "../../assets/images/img62.jpg";
+import img63 from "../../assets/images/img63.jpg";
+import img64 from "../../assets/images/img64.jpg";
+import img65 from "../../assets/images/img65.jpg";
+import img66 from "../../assets/images/img66.jpg";
+import img67 from "../../assets/images/img67.jpg";
+import img68 from "../../assets/images/img68.jpg";
+import img69 from "../../assets/images/img69.jpg";
+import img70 from "../../assets/images/img70.jpg";
+import img71 from "../../assets/images/img71.jpg";
+import img72 from "../../assets/images/img72.jpg";
+import img73 from "../../assets/images/img73.jpg";
+import img74 from "../../assets/images/img74.jpg";
+import img75 from "../../assets/images/img75.jpg";
 
 export const ImageGallery = () => {
-    const [selectedImage, setSelectedImage] = React.useState(null);
+  const [selectedImage, setSelectedImage] = React.useState(null);
 
-    const images = [
-      img11,img10,img9,img8,img2, img4,img3, img22, img23, img24, img26, img27, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img40, img41, img42, img43, img44, img45, img46, img47, img48, img49,
-      ];
-  
-    const handleImageClick = (image: any) => {
-      setSelectedImage(image);
-    };
-  
-    const handleCloseClick = () => {
-      setSelectedImage(null);
-    };
-  
-    return (
-      <>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 py-8 px-14 bg-yellow-100">
-          {images.map((image: any, index: any) => (
-            <img
-              key={index}
-              src={image}
-              alt="maa the foundation event"
-              className="cursor-pointer rounded-lg shadow-md"
-              onClick={() => handleImageClick(image)}
-            />
-          ))}
-        </div>
-        {selectedImage ? (
-          <ImagePopup image={selectedImage} onClose={handleCloseClick} />
-        ) : null}
-      </>
-    );
-  }
+  const images = [
+    img11, img10, img9, img8, img2, img4, img3, img22, img23, img24, img26, img27, img29, img30, img31, img32, img33, img34, img35, img36, img37, img38, img40, img41, img42, img43, img44, img45, img46, img47, img48, img49, img60,
+    img61,
+    img62,
+    img63,
+    img64,
+    img65,
+    img66,
+    img67,
+    img68,
+    img69,
+    img70,
+    img71,
+    img72,
+    img73,
+    img74,
+    img75,
+  ];
+
+  const handleImageClick = (image: any) => {
+    setSelectedImage(image);
+  };
+
+  const handleCloseClick = () => {
+    setSelectedImage(null);
+  };
+
+  return (
+    <>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 py-8 px-14 bg-yellow-100">
+        {images.map((image: any, index: any) => (
+          <img
+            key={index}
+            src={image}
+            alt="maa the foundation event"
+            className="cursor-pointer rounded-lg shadow-md"
+            onClick={() => handleImageClick(image)}
+          />
+        )).reverse()}
+      </div>
+      {selectedImage ? (
+        <ImagePopup image={selectedImage} onClose={handleCloseClick} />
+      ) : null}
+    </>
+  );
+}
