@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/logo/MAA-logo.svg";
+import newLogo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { Popup } from "../../components/popup/popup";
@@ -116,8 +117,8 @@ function Navbar(props: NavbarProps) {
             className="text-sm font-bold leading-relaxed mr-4 py-2 whitespace-nowrap uppercase text-black flex items-center"
             href="/"
           >
-            <img src={logo} alt="logo" className="hidden lg:block lg:w-20" />
-            <span className="font-bold text-lg lg:text-2xl">
+            <img src={newLogo} alt="logo" className="hidden lg:block lg:w-20" />
+            <span className="font-bold text-lg lg:text-2xl lg:ml-2">
               MAA The Foundation <br/>
               Movement Against Aनपढ़ता
             </span>
