@@ -65,12 +65,22 @@ export default function OurTeam() {
                 : "text-gray-400"
             }`}
           >
-            Registered Members
+            Executive Committe
           </div>
           <div
             onClick={() => handleClick(4)}
             className={`inline-block p-4 border-b-2 border-gray-300 rounded-t-lg cursor-pointer mr-4 text-sm md:text-base ${
               activeTab === 4
+                ? "border-b-2 border-green-700 text-green-700"
+                : "text-gray-400"
+            }`}
+          >
+            Registered Members
+          </div>
+          <div
+            onClick={() => handleClick(5)}
+            className={`inline-block p-4 border-b-2 border-gray-300 rounded-t-lg cursor-pointer mr-4 text-sm md:text-base ${
+              activeTab === 5
                 ? "border-b-2 border-green-700 text-green-700"
                 : "text-gray-400"
             }`}
@@ -166,6 +176,64 @@ export default function OurTeam() {
             </div>
           )}
           {activeTab === 3 && (
+            <div className="flex flex-1 flex-col lg:flex-row flex-wrap">
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={founder}
+                  alt="President"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Ankit Ranga</h4>
+                <p className="text-center italic">President</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team1}
+                  alt="Vice President"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Siddharth Sharma</h4>
+                <p className="text-center italic">Vice President</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team6}
+                  alt="Secretary"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Paramveer Singh Rathore</h4>
+                <p className="text-center italic">Secretary</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team4}
+                  alt="Joint Secretary"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Sourabh Chhangani</h4>
+                <p className="text-center italic">Joint Secretary</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team3}
+                  alt="Treasurer"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Hemlata Sharma</h4>
+                <p className="text-center italic">Treasurer</p>
+              </div>
+              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
+                <img
+                  src={team15}
+                  alt="CFO"
+                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
+                />
+                <h4 className="text-center py-1 font-bold">Yogesh Singh</h4>
+                <p className="text-center italic">Chief Financial Officer</p>
+              </div>
+            </div>
+          )}
+          {activeTab === 4 && (
             <div className="flex flex-1 flex-col lg:flex-row flex-wrap">
               <div className="flex flex-col mb-8 lg:mb-8 lg:w-1/4 items-center">
                 <img
@@ -285,7 +353,7 @@ export default function OurTeam() {
               </div>
             </div>
           )}
-          {activeTab === 4 && (
+          {activeTab === 5 && (
             <div className="flex flex-1 flex-col lg:flex-row flex-wrap">
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
                 <img
