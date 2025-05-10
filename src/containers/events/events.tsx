@@ -12,7 +12,7 @@ import event7 from "../../assets/events/event7.png";
 import event8 from "../../assets/events/event8.png";
 import event9 from "../../assets/events/event9.png";
 import event10 from "../../assets/events/event10.png";
-import img97 from "../../assets/images/img97.png";
+import img97 from "../../assets/images/img97.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
