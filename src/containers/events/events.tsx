@@ -12,6 +12,7 @@ import event7 from "../../assets/events/event7.png";
 import event8 from "../../assets/events/event8.png";
 import event9 from "../../assets/events/event9.png";
 import event10 from "../../assets/events/event10.png";
+import img97 from "../../assets/images/img97.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -107,7 +108,7 @@ export default function Events() {
       <Slider {...settings} className="mx-14 flex items-stretch">
         {/* 0. Foundation Day */}
         <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
-          <img src={event2} alt="slide1" className="rounded" />
+          <img src={img97} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Foundation Day, 18th March, 2025
             <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
