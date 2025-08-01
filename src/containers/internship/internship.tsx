@@ -2,6 +2,8 @@ import React from 'react';
 import SectionHeading from '../../components/sectionHeading/sectionHeading';
 import intern1 from '../../assets/interns/intern1.jpg';
 import intern2 from '../../assets/interns/intern2.jpg';
+import intern3 from '../../assets/interns/intern3.jpg';
+import intern4 from '../../assets/interns/intern4.jpg';
 
 const InternshipContent = () => {
   const sectionTitle = "Join Our Mission";
@@ -64,6 +66,26 @@ const InternshipContent = () => {
           />
           <h4 className="text-center py-1 font-bold">Nitendra</h4>
           <p className="text-center italic">Intern, 2019</p>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern3}
+            alt="Inter"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Aditi Srivastava</h4>
+          <p className="text-center italic">Bachelors of Journalism and Mass Communication, 1<sub>st</sub> Year</p>
+          <p className="text-center italic">Manipal University, Jaipur</p>
+          <p className="text-center italic">Intern, 2025</p>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern4}
+            alt="Inter"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Diya Pareek</h4>
+          <p className="text-center italic">Intern, 2025</p>
         </div>
       </div>
             
