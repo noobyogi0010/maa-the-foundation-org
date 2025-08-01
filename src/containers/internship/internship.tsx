@@ -74,7 +74,7 @@ const InternshipContent = () => {
             className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
           />
           <h4 className="text-center py-1 font-bold">Aditi Srivastava</h4>
-          <p className="text-center italic">Bachelors of Journalism and Mass Communication, 1<sub>st</sub> Year</p>
+          <p className="text-center italic">Bachelors of Journalism and Mass Communication, 1<sup>st</sup> Year</p>
           <p className="text-center italic">Manipal University, Jaipur</p>
           <p className="text-center italic">Intern, 2025</p>
         </div>
