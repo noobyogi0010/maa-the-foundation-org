@@ -12,6 +12,7 @@ import event7 from "../../assets/events/event7.png";
 import event8 from "../../assets/events/event8.png";
 import event9 from "../../assets/events/event9.png";
 import event10 from "../../assets/events/event10.png";
+import event11 from "../../assets/events/event11.png";
 import img97 from "../../assets/images/img97.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -106,6 +107,17 @@ export default function Events() {
       {openPopup ? (<Popup title={popupTitle} body={popupBody} setIsOpen={setOpenPopup} />) : null}
       <SectionHeading title={sectionTitle} />
       <Slider {...settings} className="mx-14 flex items-stretch">
+        {/* Independence day celebration, Aug. 2025 */}
+        <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
+          <img src={event11} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
+            Independence day celebration, Aug. 2025
+            <hr className="h-px mr-4 bg-gray-900 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-900 mx-4 pb-4 opacity-90">
+            Celebrated this Independence Day at our Azad Gurukul for the first time by hoisting the National Flag and playing fun, educational games with our students.
+          </p>
+        </div>
         {/* 0. Foundation Day */}
         <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
           <img src={img97} alt="slide1" className="rounded" />
