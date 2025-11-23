@@ -102,8 +102,8 @@ export default function OurTeam() {
                 <p className="text-center italic">Secretary</p>
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center lg:mr-6">
-                <img src={team3} alt="President" className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal" />
-                <h4 className="text-center py-1 font-bold">Hemlata Sharma</h4>
+                <img src={team16} alt="President" className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal" />
+                <h4 className="text-center py-1 font-bold">Rajendra Singh</h4>
                 <p className="text-center italic">Treasurer</p>
               </div>
             </div>
@@ -130,15 +130,6 @@ export default function OurTeam() {
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
                 <img
-                  src={team3}
-                  alt="President"
-                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
-                />
-                <h4 className="text-center py-1 font-bold">Hemlata Sharma</h4>
-                {/* <p className="text-center italic">Registered Member</p> */}
-              </div>
-              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
-                <img
                   src={team16}
                   alt="President"
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
@@ -153,15 +144,6 @@ export default function OurTeam() {
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
                 />
                 <h4 className="text-center py-1 font-bold">Siddharth Sharma</h4>
-                {/* <p className="text-center italic">Registered Member</p> */}
-              </div>
-              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
-                <img
-                  src={team11}
-                  alt="President"
-                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
-                />
-                <h4 className="text-center py-1 font-bold">Ravi Sharma</h4>
                 {/* <p className="text-center italic">Registered Member</p> */}
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
@@ -215,11 +197,11 @@ export default function OurTeam() {
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
                 <img
-                  src={team3}
+                  src={team16}
                   alt="Treasurer"
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
                 />
-                <h4 className="text-center py-1 font-bold">Hemlata Sharma</h4>
+                <h4 className="text-center py-1 font-bold">Rajendra Singh</h4>
                 <p className="text-center italic">Treasurer</p>
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
@@ -255,15 +237,6 @@ export default function OurTeam() {
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
                 <img
-                  src={team3}
-                  alt="President"
-                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
-                />
-                <h4 className="text-center py-1 font-bold">Hemlata Sharma</h4>
-                {/* <p className="text-center italic">Founder</p> */}
-              </div>
-              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
-                <img
                   src={team16}
                   alt="President"
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
@@ -278,15 +251,6 @@ export default function OurTeam() {
                   className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
                 />
                 <h4 className="text-center py-1 font-bold">Siddharth Sharma</h4>
-                {/* <p className="text-center italic">Founder</p> */}
-              </div>
-              <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
-                <img
-                  src={team11}
-                  alt="President"
-                  className="rounded-full w-2/6 lg:w-10/12 content-around lg:content-normal"
-                />
-                <h4 className="text-center py-1 font-bold">Ravi Sharma</h4>
                 {/* <p className="text-center italic">Founder</p> */}
               </div>
               <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/4 items-center">
