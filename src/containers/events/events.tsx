@@ -13,6 +13,7 @@ import event8 from "../../assets/events/event8.png";
 import event9 from "../../assets/events/event9.png";
 import event10 from "../../assets/events/event10.png";
 import event11 from "../../assets/events/event11.png";
+import event12 from "../../assets/events/event12.png";
 import img97 from "../../assets/images/img97.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -107,6 +108,16 @@ export default function Events() {
       {openPopup ? (<Popup title={popupTitle} body={popupBody} setIsOpen={setOpenPopup} />) : null}
       <SectionHeading title={sectionTitle} />
       <Slider {...settings} className="mx-14 flex items-stretch">
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event12} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Fun with Children at Fair, Dec. 2025
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            Creating moments of joy and laughter as children experienced the simple fun of a fair.
+          </p>
+        </div>
         {/* Independence day celebration, Aug. 2025 */}
         <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event11} alt="slide1" className="rounded" />
@@ -216,7 +227,7 @@ export default function Events() {
             We never let the fun stop, so we took a batch of our students for an educational trip!
           </p>
         </div>
-        <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
+        {/* <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event7} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
             Winter Skill Classes 2023
@@ -225,7 +236,7 @@ export default function Events() {
           <p className="text-base text-gray-900 mx-4 pb-4 opacity-90">
             2 week winter classes for all our students to learn about music, dance, acting, pottery, yoga and drawing.
           </p>
-        </div>
+        </div> */}
       </Slider>
       <hr className="h-px my-12 mx-14 bg-gray-900 border-0 opacity-30 rounded-lg"></hr>
     </div>
