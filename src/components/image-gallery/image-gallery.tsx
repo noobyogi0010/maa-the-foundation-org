@@ -91,6 +91,9 @@ import img115 from "../../assets/images/img115.jpg";
 import img116 from "../../assets/images/img116.jpg";
 import img117 from "../../assets/images/img117.jpg";
 import img118 from "../../assets/images/img118.jpg";
+import img119 from "../../assets/images/img119.jpg";
+import img120 from "../../assets/images/img120.jpg";
+import img121 from "../../assets/images/img121.jpg";
 
 export const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -155,6 +158,9 @@ export const ImageGallery = () => {
     img116,
     img117,
     img118,
+    img119,
+    img120,
+    img121,
   ];
 
   const handleImageClick = (image: any) => {
