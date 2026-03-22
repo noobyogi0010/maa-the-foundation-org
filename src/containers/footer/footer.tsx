@@ -50,6 +50,9 @@ export const Footer = () => {
           Email: <span className="font-bold">maathefoundation@gmail.com</span>
         </p>
         <p className="px-4 mb-4 md:mb-0">
+          Contact No.: <span className="font-bold">+91-6377773134</span>
+        </p>
+        <p className="px-4 mb-4 md:mb-0">
           Address:{" "}
           <span className="font-bold">
             A-643, Luv Kush Marg, Panchsheel Nagar, Ajmer, Rajasthan - 305004
