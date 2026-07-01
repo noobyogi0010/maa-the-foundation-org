@@ -14,6 +14,11 @@ import event9 from "../../assets/events/event9.png";
 import event10 from "../../assets/events/event10.png";
 import event11 from "../../assets/events/event11.png";
 import event12 from "../../assets/events/event12.png";
+import event13 from "../../assets/events/event13.png";
+import event14 from "../../assets/events/event14.png";
+import event15 from "../../assets/events/event15.png";
+import event16 from "../../assets/events/event16.png";
+import event17 from "../../assets/events/event17.png";
 import img97 from "../../assets/images/img97.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -109,6 +114,56 @@ export default function Events() {
       <SectionHeading title={sectionTitle} />
       <Slider {...settings} className="mx-14 flex items-stretch">
         <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event14} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Yoga Day, 21st June 2026
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            Celebrated 12th Yoga Divas with our students.
+          </p>
+        </div>
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event15} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Summer Special Classes, Jun. 2026
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            Organized summer special classes for kids to learn new skills.
+          </p>
+        </div>
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event16} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Sports Day, May. 2026
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            Organized a sports day event for our students to keep them active during summer vacations.
+          </p>
+        </div>
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event13} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Tree Plantation, Apr. 2026
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            We had a plantation drive at our Aaazad Gurukul where children sow the seeds for future.
+          </p>
+        </div>
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+          <img src={event17} alt="slide1" className="rounded" />
+          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+            Certificate Distribution, Mar. 2026
+            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+          </h2>
+          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+            Awarded certificates to our volunteers and interns.
+          </p>
+        </div>
+        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
           <img src={event12} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Fun with Children at Fair, Dec. 2025
@@ -197,7 +252,7 @@ export default function Events() {
             Come join us on 18th March, 2024 to celebrate our annual day.
           </p>
         </div>
-        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+        {/* <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
           <img src={event5} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Distribution of Uniform 2024
@@ -226,7 +281,7 @@ export default function Events() {
           <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
             We never let the fun stop, so we took a batch of our students for an educational trip!
           </p>
-        </div>
+        </div> */}
         {/* <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event7} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
