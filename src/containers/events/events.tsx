@@ -113,7 +113,7 @@ export default function Events() {
       {openPopup ? (<Popup title={popupTitle} body={popupBody} setIsOpen={setOpenPopup} />) : null}
       <SectionHeading title={sectionTitle} />
       <Slider {...settings} className="mx-14 flex items-stretch">
-        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+        <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event14} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Yoga Day, 21st June 2026
@@ -133,7 +133,7 @@ export default function Events() {
             Organized summer special classes for kids to learn new skills.
           </p>
         </div>
-        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+        <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event16} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Sports Day, May. 2026
@@ -153,7 +153,7 @@ export default function Events() {
             We had a plantation drive at our Aaazad Gurukul where children sow the seeds for future.
           </p>
         </div>
-        <div className="m-4 w-auto-imp bg-green-700 rounded h-450-px">
+        <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event17} alt="slide1" className="rounded" />
           <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
             Certificate Distribution, Mar. 2026
