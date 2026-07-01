@@ -4,6 +4,8 @@ import intern1 from '../../assets/interns/intern1.jpg';
 import intern2 from '../../assets/interns/intern2.jpg';
 import intern3 from '../../assets/interns/intern3.jpg';
 import intern4 from '../../assets/interns/intern4.jpg';
+import intern5 from '../../assets/interns/intern5.jpg';
+import intern6 from '../../assets/interns/intern6.jpg';
 
 const InternshipContent = () => {
   const sectionTitle = "Join Our Mission";
@@ -86,6 +88,27 @@ const InternshipContent = () => {
           />
           <h4 className="text-center py-1 font-bold">Diya Pareek</h4>
           <p className="text-center italic">Intern, 2025</p>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern5}
+            alt="Inter"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Lalit Khatri</h4>
+          <p className="text-center italic">IGNOU</p>
+          <p className="text-center italic">Intern, 2025</p>
+        </div>
+        <div className="flex flex-col mb-8 lg:mb-4 lg:w-1/6 items-center">
+          <img
+            src={intern6}
+            alt="Inter"
+            className="rounded-full w-full lg:w-3/4 content-around lg:content-normal"
+          />
+          <h4 className="text-center py-1 font-bold">Ishika Gupta</h4>
+          <p className="text-center italic">Undergrad in Arts</p>
+          <p className="text-center italic">Banaras Hindu University</p>
+          <p className="text-center italic">Intern, 2026</p>
         </div>
       </div>
             
