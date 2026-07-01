@@ -115,11 +115,11 @@ export default function Events() {
       <Slider {...settings} className="mx-14 flex items-stretch">
         <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event14} alt="slide1" className="rounded" />
-          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+          <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
             Yoga Day, 21st June 2026
-            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+            <hr className="h-px mr-4 bg-gray-900 border-0 rounded-lg"></hr>
           </h2>
-          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+          <p className="text-base text-gray-900 mx-4 pb-4 opacity-90">
             Celebrated 12th Yoga Divas with our students.
           </p>
         </div>
@@ -135,11 +135,11 @@ export default function Events() {
         </div>
         <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event16} alt="slide1" className="rounded" />
-          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+          <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
             Sports Day, May. 2026
-            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+            <hr className="h-px mr-4 bg-gray-900 border-0 rounded-lg"></hr>
           </h2>
-          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+          <p className="text-base text-gray-900 mx-4 pb-4 opacity-90">
             Organized a sports day event for our students to keep them active during summer vacations.
           </p>
         </div>
@@ -155,11 +155,11 @@ export default function Events() {
         </div>
         <div className="m-4 w-auto-imp bg-yellow-300 rounded h-450-px">
           <img src={event17} alt="slide1" className="rounded" />
-          <h2 className="text-lg font-semibold text-gray-100 pt-4 pb-2 mx-4">
+          <h2 className="text-lg font-semibold text-gray-900 pt-4 pb-2 mx-4">
             Certificate Distribution, Mar. 2026
-            <hr className="h-px mr-4 bg-gray-100 border-0 rounded-lg"></hr>
+            <hr className="h-px mr-4 bg-gray-900 border-0 rounded-lg"></hr>
           </h2>
-          <p className="text-base text-gray-100 mx-4 pb-4 opacity-90">
+          <p className="text-base text-gray-900 mx-4 pb-4 opacity-90">
             Awarded certificates to our volunteers and interns.
           </p>
         </div>
